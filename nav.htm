@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="nav.css">
+    <script src="https://kit.fontawesome.com/0e2308120d.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav flex-row">
+        <div class = "nav-menu flex-row">
+            <div class="toggle-icons">
+                <button onclick="Drop()" class="btn-ham"><i class="fas fa-bars"></i></button>
+            </div>
+            <div class="dropdown" id="dropdown">
+                <div class="dropdown-head">
+                    <div class="dropdown-nav-brand">
+                        <span class="dropdown-bars"><button onclick="Drop()" class="btn-bar"><i class="fas fa-times"></i></button></span>
+                        <img class="dropdown-logo"src="Himpedia_Logo_Pink.png" alt="Himpedia_Logo_Pink">
+                    </div>
+                    <ul class="dropdown-nav flex-row">
+                        <li class="dropdown-link">
+                            <a href="#" class="text-white">About</a>
+                        </li>
+                        <li class="dropdown-link">
+                            <a href="#" class="text-white">Team</a>
+                        </li>
+                        <li class="dropdown-link">
+                            <a href="#" class="text-white">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dropdown-body flex-row">
+                    <ul class="dropdown-body-A">
+                        <li class="dropdown-body-head">
+                            <a href="#" class="text-head"><span class="und">DISTRICTS</span></a>
+                        </li>
+                        <li class="dropdown-body-content dis-menu">
+                            <a href="#" class="text-white">Bilaspur</a>
+                        </li> 
+                        <li class="dropdown-body-content dis-menu">
+                            <a href="#" class="text-white">Chamba</a>
+                        </li> 
+                        <li class="dropdown-body-content dis-menu">
+                            <a href="#" class="text-white">Hamirpur</a>
+                        </li> 
+                        <li class="dropdown-body-content dis-menu">
+                            <a href="#" class="text-white">Kangra</a>
+                        </li> 
+                        <li class="dropdown-body-content dis-menu">
+                            <a href="#" class="text-white">Kinnaur</a>
+                        </li> 
+                        <li class="dropdown-body-content dis-menu">
+                            <a href="#" class="text-white">Kullu</a>
+                        </li> 
+                        <li class="dropdown-body-content dis-menu">
+                            <a href="#" class="text-white">Lahaul & Spiti</a>
+                        </li> 
+                        <li class="dropdown-body-content dis-menu">
+                            <a href="#" class="text-white">Mandi</a>
+                        </li> 
+                        <li class="dropdown-body-content dis-menu">
+                            <a href="#" class="text-white">Shimla</a>
+                        </li> 
+                        <li class="dropdown-body-content dis-menu">
+                            <a href="#" class="text-white">Sirmaur</a>
+                        </li> 
+                        <li class="dropdown-body-content dis-menu">
+                            <a href="#" class="text-white">Solan</a>
+                        </li> 
+                        <li class="dropdown-body-content dis-menu">
+                            <a href="#" class="text-white">Una</a>
+                        </li> 
+                    </ul>
+                    <ul class="dropdown-body-B">
+                        <li class="dropdown-body-head">
+                            <a href="#" class="text-head"><span class="und">PERSONALITIES</span></a>
+                        </li>
+                        <li class="dropdown-body-head">
+                            <a href="#" class="text-head"><span class="und">MONUMENTS</span></a>
+                        </li>
+                        <li class="dropdown-body-head">
+                            <a href="#" class="text-head"><span class="und">LAKES</span></a>
+                        </li>
+                        <li class="dropdown-body-head">
+                            <a href="#" class="text-head"><span class="und">MUSIC</span></a>
+                        </li>
+                        <li class="dropdown-body-head">
+                            <a href="#" class="text-head"><span class="und">FOLKLORE</span></a>
+                        </li>
+                        <li class="dropdown-body-head">
+                            <a href="#" class="text-head"><span class="und">FAIRS & FESTIVALS</span></a>
+                        </li>
+                        <li class="dropdown-body-head">
+                            <a href="#" class="text-head"><span class="und">TEMPLES</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dropdown-foot flex-row">
+                    <b class="text-dropdown-foot">Follow Us</b>
+                    <span class="social-icon"><i class="fab fa-facebook-f"></i></span>
+                    <span class="social-icon"><i class="fab fa-instagram"></i></span>
+                    <span class="social-icon"><i class="fab fa-linkedin-in"></i></span>
+                    <span class="social-icon"><i class="fab fa-youtube"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="nav-web flex-row">
+        <div class="nav-brand">
+            <a href="#" ><img class="nav-logo"src="Himpedia_Logo_Pink.png" alt="Himpedia_Logo_Pink"></a>
+        </div>
+    <ul class="nav-items flex-row">
+        <li class="nav-link">
+            <a href="#" class="text-black">About Us</a>
+        </li>
+        <li class="nav-link">
+            <a href="#" class="text-black">Team</a>
+        </li>
+        <li class="nav-link">
+            <a href="#" class="text-black">Contact</a>
+        </li>
+    </ul>
+</div>
+</nav>
+
+<div class="image-slider">
+    <div class="image-slider-fade fade">
+        <div class="numbertext"></div>
+        <img class="main-slider-img" src="main-slider/img-1.jpg" style="width:100%">
+      </div>
+    
+      <div class="image-slider-fade fade">
+        <div class="numbertext"></div>
+        <img class="main-slider-img" src="main-slider/img-2.jpg" style="width:100%">
+      </div>
+    
+      <div class="image-slider-fade fade">
+        <div class="numbertext"></div>
+        <img class="main-slider-img" src="main-slider/img-3.jpg" style="width:100%">
+      </div>
+
+      <div class="image-slider-fade fade">
+        <div class="numbertext"></div>
+        <img class="main-slider-img" src="main-slider/img-4.jpg" style="width:100%">
+      </div>
+    
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+</body>
+<script src="nav.js"></script>
+</html>
